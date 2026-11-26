@@ -8,16 +8,18 @@ text-to-speech.
 
 > **This is a fork.** `Bojanni050/WinSTT` is a fork of
 > [dahshury/WinSTT](https://github.com/dahshury/WinSTT), kept under the same MIT license
-> (© CJ Pais and the WinSTT contributors — see [`LICENSE`](LICENSE)). The code is otherwise
-> identical to upstream `v0.1.3-beta.2` (`a34a1fc`); only the release/updater, docs, badge,
-> issue-template and user-agent URLs were repointed at this namespace, and the updater was
-> re-keyed to a signing key owned here. **This fork has no releases yet**, so for a working
-> build use the
+> (© CJ Pais and the WinSTT contributors — see [`LICENSE`](LICENSE)).
+>
+> Apart from this one cleanup commit the code is identical to upstream `v0.1.3-beta.2`
+> (`a34a1fc`): only the release/updater, docs, badge, issue-template and user-agent URLs were
+> repointed at this namespace, and the updater was re-keyed to a signing key owned here.
+>
+> **This fork has no releases yet**, so for a working build use the
 > [upstream v0.1.3-beta.2 release](https://github.com/dahshury/WinSTT/releases/tag/v0.1.3-beta.2).
-> The download badges below resolve once the first release is published from this fork, and
-> `bojanni050.github.io/WinSTT` serves once GitHub Pages is enabled for this repository.
+> The download badges below resolve once the first release is published from this fork; the
+> docs site is already live at [bojanni050.github.io/WinSTT](https://bojanni050.github.io/WinSTT/).
 
-**Docs:** [winstt.github.io/WinSTT](https://bojanni050.github.io/WinSTT/) ·
+**Docs:** [bojanni050.github.io/WinSTT](https://bojanni050.github.io/WinSTT/) ·
 **Latest beta (upstream):** [WinSTT v0.1.3-beta.2](https://github.com/dahshury/WinSTT/releases/tag/v0.1.3-beta.2)
 
 <p align="center">

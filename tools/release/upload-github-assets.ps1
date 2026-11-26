@@ -4,7 +4,7 @@ param(
     [string] $Tag = "",
     [string] $Title = "",
     [string] $Notes = "",
-    [string] $Repository = "dahshury/WinSTT",
+    [string] $Repository = "Bojanni050/WinSTT",
     [string] $Target = "",
     [bool] $Draft = $true,
     [bool] $Prerelease = $false,

@@ -88,9 +88,9 @@
 	},
 	"plugins": {
 		"updater": {
-			"pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEI2NUJGRjA1NDg4OEY4MUQKUldRZCtJaElCZjlidHFxWm9MeDdoNDdqN2Z4Q2huUTRYTU5YQlJwdVNJRnlOSzZXa3YxSEsyMG4K",
+			"pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDUyNjlCQzY1NDgxRkI5NzkKUldSNXVSOUlaYnhwVWp4bzVNVHBBMFkvMGYwWUhPaUY3b09XSnQxRlpTVmxFSkdUOVp6amhFQ08K",
 			"endpoints": [
-				"https://github.com/dahshury/WinSTT/releases/latest/download/latest.json"
+				"https://github.com/Bojanni050/WinSTT/releases/latest/download/latest.json"
 			]
 		}
 	}

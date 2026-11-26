@@ -402,7 +402,7 @@ jobs:
             src-tauri/src \
             tools \
             docs/src; then
-            echo "::error::Found the unowned 'winstt/WinSTT' repo slug above. Release/update/user-agent URLs must point at 'dahshury/WinSTT'."
+            echo "::error::Found the unowned 'winstt/WinSTT' repo slug above. Release/update/user-agent URLs must point at 'Bojanni050/WinSTT'."
             exit 1
           fi
           echo "No unowned repo slug found."

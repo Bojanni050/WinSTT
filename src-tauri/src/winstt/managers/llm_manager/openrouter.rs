@@ -245,7 +245,7 @@ impl LlmManager {
             .with_response_format(JsonSpec::new("TransformedText", schema))
             .with_capture_usage(true)
             .with_extra_headers([
-                ("HTTP-Referer", "https://github.com/dahshury/WinSTT"),
+                ("HTTP-Referer", "https://github.com/Bojanni050/WinSTT"),
                 ("X-Title", "WinSTT"),
             ]);
         if extra.as_object().is_some_and(|m| !m.is_empty()) {
@@ -352,7 +352,7 @@ impl LlmManager {
             .client
             .get(openrouter_models_url(output_modality))
             .timeout(std::time::Duration::from_secs(15))
-            .header("HTTP-Referer", "https://github.com/dahshury/WinSTT")
+            .header("HTTP-Referer", "https://github.com/Bojanni050/WinSTT")
             .header("X-Title", "WinSTT");
         if !api_key.is_empty() {
             rb = rb.bearer_auth(api_key);
@@ -699,7 +699,7 @@ async fn fetch_model_endpoints(
     let mut rb = client
         .get(&url)
         .timeout(std::time::Duration::from_secs(10))
-        .header("HTTP-Referer", "https://github.com/dahshury/WinSTT")
+        .header("HTTP-Referer", "https://github.com/Bojanni050/WinSTT")
         .header("X-Title", "WinSTT");
     if !api_key.is_empty() {
         rb = rb.bearer_auth(api_key);

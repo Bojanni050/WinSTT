@@ -13,7 +13,7 @@ use crate::winstt::commands::settings::read_settings;
 use crate::winstt::observability::IssueBuilder;
 
 const GITHUB_RELEASES_API: &str =
-    "https://api.github.com/repos/dahshury/WinSTT/releases?per_page=30";
+    "https://api.github.com/repos/Bojanni050/WinSTT/releases?per_page=30";
 const LATEST_JSON_ASSET: &str = "latest.json";
 const STATUS_EVENT: &str = "updater:status";
 const MAX_STATUS_HISTORY: usize = 200;

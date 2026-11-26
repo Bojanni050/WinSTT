@@ -31,6 +31,12 @@ only `tauri build` produces a standalone exe.
 
 ## Critical rules
 
+- **This is a fork (`Bojanni050/WinSTT`) of `dahshury/WinSTT`.** Every release, updater,
+  user-agent, badge and docs URL must point at `Bojanni050/WinSTT`, never back at the upstream
+  slug — `.github/workflows/rust-ci.yml` has a `repo-slug-check` job guarding the namespace.
+  The updater signing key is owned here (not upstream's), so a release must have
+  `TAURI_SIGNING_PRIVATE_KEY` set as a repository secret or signed updates won't verify.
+
 - **NEVER `git stash`** in any form — the working tree is huge and stash conflicts hold
   work hostage. Use `cp file file.bak` or `git show <ref>:<path>` to compare.
 - Commit/push only when asked. End commit messages with:

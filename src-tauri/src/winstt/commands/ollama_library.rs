@@ -26,7 +26,7 @@ use crate::helpers::regex::static_regex;
 use crate::winstt::managers::OllamaManager;
 
 const OLLAMA_BASE: &str = "https://ollama.com";
-const USER_AGENT: &str = "WinSTT/1.0 (+https://github.com/dahshury/WinSTT)";
+const USER_AGENT: &str = "WinSTT/1.0 (+https://github.com/Bojanni050/WinSTT)";
 const PAGE_SIZE: usize = 20;
 
 // ── Burst control ────────────────────────────────────────────────────────────────

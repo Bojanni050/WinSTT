@@ -25,7 +25,7 @@ const packageJsonPath = join(repoRoot, "package.json");
 const START = "<!-- DOWNLOAD_BADGES:START -->";
 const END = "<!-- DOWNLOAD_BADGES:END -->";
 
-const owner = "dahshury";
+const owner = "Bojanni050";
 const repo = "WinSTT";
 const releasesBase = `https://github.com/${owner}/${repo}/releases`;
 
